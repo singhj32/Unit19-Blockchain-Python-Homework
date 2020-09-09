@@ -90,7 +90,7 @@ We are using python code is to derive wallets from our mnemonic phrase. The func
          elif coin=='btc-test':
             return NetworkAPI.broadcast_tx_testnet(signed_tx) 
 
-### **_Send "ETH" transaction and check status:_**
+#### **_Send "ETH" transaction and check status:_**
 
  First we need to run the local blockchain using puppeth and geth commands. Then make a transaction using mycrypto to workaround the web3 library bug mentioned in the instructions. Finally, we send the actual transaction to the network.
 
@@ -112,7 +112,7 @@ Checking ethereum transaction status:
 </p>
 <br>
 
-### **_Send "BTC" transaction and check status:_**
+#### **_Send "BTC" transaction and check status:_**
 
  Create btc account and send transaction as follows. Check the transaction status online.
 
@@ -130,4 +130,6 @@ Checking BTC transaction status:
 </p>
 <br>
 
-**Conclusion:** Python libraries provides support for blockchain and crypto currencies and they can be used to write custom applications as needed. In the above demonstration, both btctest and ethereum transactions were successful. We can enhance the above application to perform transactions in other types of crypto currencies.
+## _**Conclusion:**_ 
+
+Python libraries provides support for blockchain and crypto currencies and they can be used to write custom applications as needed. In the above demonstration, both btctest and ethereum transactions were successful. We can enhance the above application to perform transactions in other types of crypto currencies.
