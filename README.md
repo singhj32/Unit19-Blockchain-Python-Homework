@@ -86,7 +86,7 @@ Checking Ethereum transaction status:
 </p>
 <br>
 
-### _send "BTC" transaction and check status:_
+### _Send "BTC" transaction and check status:_
 
  First we need to run the local blockchain using puppeth and geth commands. Then make a transaction using mycrypto to workaround the web3 library bug mentioned in the instructions. Then send the transaction.
 
