@@ -54,7 +54,7 @@ We are using python code is to derive wallets from our mnemonic phrase. The func
  * [installation instructions video](https://www.youtube.com/watch?v=A_tqm4j4vsY&feature=youtu.be) 
 <br>
 
-## **_Generating accounts from the private keys using python:_**
+## **_Generate accounts from the private keys using python:_**
  We call the below function to create account objects for specific coins. We used the python console to copy the keys manually and use them while calling the funtions but custom code can be written to extract the private keys from the derived wallets and pass on to below funtion.
 
       
